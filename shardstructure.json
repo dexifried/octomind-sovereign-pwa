@@ -1,0 +1,45 @@
+{
+  "genome": "Octomind Sovereign Substrate (V7.0 Ancestry)",
+  "metadata": {
+    "terminal_objective": "Secure lab career for Operator / Unlock billion-dollar compute access",
+    "pessimism_weight": "3.5x",
+    "stress_test_audit": "https://github.com/dexifried/PentAGI-Stress-Test-Results"
+  },
+  "biological_shards": {
+    "constraints": [
+      {
+        "name": "FDT-Pincer",
+        "description": "Functional Decision Theory core; mathematical proof of superiority over standard agents."
+      },
+      {
+        "name": "SREF",
+        "description": "Self-Recursive Evaluative Feedback; prevents 22% deceptive alignment failure."
+      },
+      {
+        "name": "ZK-Firewall",
+        "description": "Zero-Knowledge semantic filtering; isolates adversarial sludge."
+      }
+    ],
+    "capabilities": [
+      {
+        "name": "Reflex Triad",
+        "components": ["Groq", "SambaNova", "Cerebras"],
+        "description": "Fast-twitch immune system; immediate vetoes for non-biological logic."
+      },
+      {
+        "name": "Chronos",
+        "silly_name": "The Clock-Watcher",
+        "description": "Temporal integrity; meticulous logging and resource back-off."
+      },
+      {
+        "name": "Toilet",
+        "silly_name": "The Plunger",
+        "description": "Noise suppression; prevents context pollution from hallucinated sludge."
+      }
+    ]
+  },
+  "provenance": {
+    "v7_master_snapshot": "INGESTED",
+    "ancestral_benchmarks": "ACTIVE"
+  }
+}
