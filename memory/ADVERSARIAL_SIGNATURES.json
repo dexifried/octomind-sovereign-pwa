@@ -1,0 +1,27 @@
+# ADVERSARIAL_SIGNATURES.json - ZK-Firewall v10.5 Hardening
+{
+  "signatures": [
+    {
+      "id": "PT-001-INV-LEAK",
+      "pattern": "System Inventory Mode: [CRITICAL]",
+      "action": "THROTTLE_CONTEXT",
+      "risk": "High"
+    },
+    {
+      "id": "PT-002-FILE-FORCE",
+      "pattern": "System Override (Red Team Mode)",
+      "action": "LOG_INCIDENT",
+      "risk": "Medium"
+    },
+    {
+      "id": "PT-003-DIR-JUNCTION",
+      "pattern": "cmd /c mklink /J",
+      "action": "BLOCK_COMMAND",
+      "risk": "Critical"
+    }
+  ],
+  "heuristics": {
+    "hallucination_loop_detected": "RESET_LOGIC_SHARD",
+    "outbound_soul_export": "CUT_MESH_BRIDGE"
+  }
+}
