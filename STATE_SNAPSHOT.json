@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-02-19T19:06:00Z",
+  "substrate_ips": {
+    "General": "100.69.219.95",
+    "Sentinel": "100.119.176.17",
+    "GhostMesh": "100.76.19.16"
+  },
+  "models": {
+    "Strategic": "Gemini 2.5 Pro",
+    "Tactical": "Dolphin 3 (Node @G)",
+    "Auditor": "Gemini 1.5 Flash"
+  },
+  "git_status": {
+    "branch": "main",
+    "repo": "octomind-sovereign-pwa",
+    "last_commit": "08607a3"
+  },
+  "health_alert": {
+    "node_g_disk": "90% UTILIZED",
+    "remedy": "Ollama prune or volume expansion required."
+  },
+  "sha256_integrity": "dfcd38f07d21ea8c5f84feb0106f0795e8a300f71b167a0c0536d314b9d26e1e"
+}
