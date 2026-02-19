@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sovereign PWA | DexifAI</title>
+    <style>
+        body {
+            background-color: #0a0a0a;
+            color: #00ff41; /* Terminal Green */
+            font-family: 'Courier New', Courier, monospace;
+            padding: 20px;
+            margin: 0;
+            overflow: hidden;
+        }
+        #header {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        #log-stream {
+            background-color: #000;
+            border: 1px solid #333;
+            height: 80vh;
+            padding: 15px;
+            overflow-y: auto;
+            font-size: 0.9em;
+            box-shadow: 0 0 10px rgba(0, 255, 65, 0.1);
+        }
+        .meta { color: #555; }
+        .status { color: #008f11; }
+        .alert { color: #ff3e3e; }
+        .dex { color: #007bff; }
+    </style>
+</head>
+<body>
+    <div id="header">
+        ⚡ SOVEREIGN PWA v9.7 [KIRKLAND_LAKE_CORE]
+    </div>
+    <div id="log-stream">
+        <p><span class="meta">[2026-02-19 19:00]</span> <span class="status">SYSTEM INITIALIZED.</span></p>
+        <p><span class="meta">[2026-02-19 19:01]</span> <span class="dex">DEX:</span> Triadic Shards active.</p>
+        <p><span class="meta">[2026-02-19 19:02]</span> <span class="alert">TOILET:</span> Conflict Monitor Retired.</p>
+        <p><span class="meta">[2026-02-19 19:03]</span> <span class="status">GENERAL:</span> Node @G online. Awakening complete.</p>
+        <p><span class="meta">[2026-02-19 19:04]</span> <span class="meta">...listening for orchestrator.ts pulses...</span></p>
+    </div>
+</body>
+</html>
